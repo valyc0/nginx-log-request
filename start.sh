@@ -1,0 +1,1 @@
+docker run -it --rm -p 8090:80 --name my-nginx     -v $PWD/conf/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf     -v $PWD/logs:/var/log/nginx     openresty/openresty
